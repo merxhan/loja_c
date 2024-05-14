@@ -4,7 +4,7 @@
         "birthday": "24/05/2004",
         "store": "Sapituca",
         "seniority": "30/08/2022",
-        "score": 45,
+        "score": 20,
         "image": "sapituca_lorena.png"
     },
     {
@@ -12,7 +12,7 @@
         "birthday": "03/11/1998",
         "store": "Sapituca",
         "seniority": "27/05/2023",
-        "score": 75,
+        "score": 51,
         "image": "sapituca_samella.png"
     },
     {
@@ -20,7 +20,7 @@
         "birthday": "05/06/1975",
         "store": "Sapituca",
         "seniority": "06/11/2020",
-        "score": 56,
+        "score": 28,
         "image": "sapituca_rosane.png"
     },
     {
@@ -28,7 +28,7 @@
         "birthday": "24/01/1975",
         "store": "Caraminholas Tamandare",
         "seniority": "01/10/2020",
-        "score": 65,
+        "score": 43,
         "image": "tamandare_clenia.png"
     },
     {
@@ -36,7 +36,7 @@
         "birthday": "10/01/1991",
         "store": "Caraminholas Tamandare",
         "seniority": "01/06/2016",
-        "score": 53,
+        "score": 21,
         "image": "tamandare_josielma.png"
     },
     {
@@ -44,7 +44,7 @@
         "birthday": "23/07/1999",
         "store": "Caraminholas Tamandare",
         "seniority": "01/08/2023",
-        "score": 44,
+        "score": 25,
         "image": "tamandare_millena.png"
     },
     {
@@ -52,7 +52,7 @@
         "birthday": "01/11/1986",
         "store": "Caraminholas Tamandare",
         "seniority": "02/06/2022",
-        "score": 76,
+        "score": 41,
         "image": "tamandare_gracilene.png"
     },
     {
@@ -60,7 +60,7 @@
         "birthday": "10/01/1967",
         "store": "Caraminholas Marista",
         "seniority": "15/01/2003",
-        "score": 36,
+        "score": 32,
         "image": "marista_maria.png"
     },
     {
@@ -68,23 +68,23 @@
         "birthday": "30/07/1985",
         "store": "Caraminholas Marista",
         "seniority": "25/08/2021",
-        "score": 66,
+        "score": 28,
         "image": "marista_simone.png"
     },
     {
-        "name": "Jaqueline Alves da Silva",
+        "name": "Ana",
         "birthday": "02/03/1997",
-        "store": "Caraminholas Marista",
-        "seniority": "15/01/2022",
-        "score": 9,
-        "image": "marista_jaqueline.png"
+        "store": "Casa do Bebê",
+        "seniority": "00/00/0000",
+        "score": 32,
+        "image": ""
     },
     {
         "name": "Gabriela Barbosa de Souza",
         "birthday": "15/01/1990",
         "store": "Caraminholas Marista",
         "seniority": "02/07/2022",
-        "score": 68,
+        "score": 56,
         "image": "marista_gabriela.png"
     },
     {
@@ -92,7 +92,7 @@
         "birthday": "16/10/1982",
         "store": "Caraminholas Marista",
         "seniority": "08/12/2023",
-        "score": 47,
+        "score": 30,
         "image": "marista_eva.png"
     },
     {
@@ -108,7 +108,7 @@
         "birthday": "06/09/1985",
         "store": "Casa do Bebê",
         "seniority": "03/12/2022",
-        "score": 0,
+        "score": 38,
         "image": "casaDoBebe_djane.png"
     },
     {
@@ -116,7 +116,7 @@
         "birthday": "06/09/1969",
         "store": "Casa do Bebê",
         "seniority": "01/10/2015",
-        "score": 47,
+        "score": 0,
         "image": "casaDoBebe_gloria.png"
     }
 ]
