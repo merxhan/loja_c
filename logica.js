@@ -71,7 +71,7 @@ $(function () {
 
                 // debugger
 
-                listEmployer += item.score > 0 ? `
+                listEmployer += index < 10 ? `
                 <div class="card w-100 my-4" style='${styleCss}'>
                     <img src="./assest/img/employers/${item.image}" class="card-img-top p-3 rounded-top" alt="img_${item.name}">
                     <div class="card-body text-center">        
