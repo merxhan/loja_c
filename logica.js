@@ -70,41 +70,7 @@ $(function () {
                     }
                 }
 
-                // listEmployer += index < 10 ? `
-                // <div class="card w-100 my-4" style='${styleCss}'>
-                //     <img src="./assest/img/employers/${item.image}" class="card-img-top p-3 rounded-top" alt="img_${item.name}">
-                //     <div class="card-body text-center">        
-                //         ${index <= 2 && percentage > 0 ? `<img src="./assest/img/utilities/medalha_${index + 1}.png" style="width:4em" class="winner" alt="medalha_${index + 1}">` : ''} 
-                //         <div class="accordion accordion-flush" id="accordionFlush">
-                //             <div class="accordion-item">
-                //                 <h2 class="accordion-header ">
-                //                     <button class="accordion-button collapsed" style='${styleCss}' type="button" data-bs-toggle="collapse"
-                //                         data-bs-target="#flush-employer_${index + 1}" aria-expanded="false" aria-controls="flush-employer_${index + 1}">
-                //                         <h3 class="card-title">${index > 2 ? `# ${index + 1}` : ''} ${item.name}</h3>   
-                //                     </button>
-                //                 </h2>
-                //                 <div id="flush-employer_${index + 1}" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
-                //                     <div class="accordion-body" style='${styleCss}'>
-                //                         <p>Loja: <b>${item.store}</b></p>
-                //                         <p>Pontos: <b>${item.score}</b></p>
-                //                         <p class='my-0'><b>Aniversario:</b> <br> ${item.birthday.substr(0, 5)}</p>
-                //                         <p class='my-0'><b>Tempo de empresa:</b> <br> ${seniorityHtml}</p>
-                //                     </div>
-                //                 </div>
-                //             </div>
-                //         </div>
-                //         <hr>      
-                //         <div class="progress" role="progressbar" aria-label="1" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 3em">
-                //             // <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width: ${parseFloat(secondPercentage).toFixed(0)}%">
-                //             <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width: ${parseFloat(secondPercentage).toFixed(0)}%">
-                //                 <p class="text-center fs-1 mt-3"><strong>R$ ${item.bonus}</strong></p>
-                //             </div>
-                //         </div> 
-                //     </div>
-                // </div>
-                // ` : '';
-
-                listEmployer += `
+                listEmployer += index < 100 ? `
                 <div class="card w-100 my-4" style='${styleCss}'>
                     <img src="./assest/img/employers/${item.image}" class="card-img-top p-3 rounded-top" alt="img_${item.name}">
                     <div class="card-body text-center">        
@@ -128,12 +94,45 @@ $(function () {
                         </div>
                         <hr>      
                         <div class="progress" role="progressbar" aria-label="1" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 3em">
-                            <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width:100%">
-                                <p class="text-center fs-1 mt-3"><strong>${item.score} - R$ ${item.bonus}</strong></p>
+                            <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width: 100%">
+                                <p class="text-center fs-1 mt-3"><strong>${item.score}</strong></p>
                             </div>
                         </div> 
                     </div>
-                </div>`
+                </div>
+                ` : '';
+
+                // listEmployer += `
+                // <div class="card w-100 my-4" style='${styleCss}'>
+                //     <img src="./assest/img/employers/${item.image}" class="card-img-top p-3 rounded-top" alt="img_${item.name}">
+                //     <div class="card-body text-center">        
+                //         ${index <= 2 && percentage > 0 ? `<img src="./assest/img/utilities/medalha_${index + 1}.png" style="width:4em" class="winner" alt="medalha_${index + 1}">` : ''} 
+                //         <div class="accordion accordion-flush" id="accordionFlush">
+                //             <div class="accordion-item">
+                //                 <h2 class="accordion-header ">
+                //                     <button class="accordion-button collapsed" style='${styleCss}' type="button" data-bs-toggle="collapse"
+                //                         data-bs-target="#flush-employer_${index + 1}" aria-expanded="false" aria-controls="flush-employer_${index + 1}">
+                //                         <h3 class="card-title">${index > 2 ? `# ${index + 1}` : ''} ${item.name}</h3>   
+                //                     </button>
+                //                 </h2>
+                //                 <div id="flush-employer_${index + 1}" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                //                     <div class="accordion-body" style='${styleCss}'>
+                //                         <p>Loja: <b>${item.store}</b></p>
+                //                         <p class='my-0'><b>Aniversario:</b> <br> ${item.birthday.substr(0, 5)}</p>
+                //                         <p class='my-0'><b>Tempo de empresa:</b> <br> ${seniorityHtml}</p>
+                //                     </div>
+                //                 </div>
+                //             </div>
+                //         </div>
+                //         <hr>      
+                //         <div class="progress" role="progressbar" aria-label="1" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 3em">
+                //             <div class="progress-bar progress-bar-striped ${progressCss} progress-bar-animated" style="width:100%">
+                //                 <p class="text-center fs-1 mt-3"><strong>${item.score} - R$ ${item.bonus}</strong></p>
+                //             </div>
+                //         </div> 
+                //     </div>
+                // </div>`;
+
             });
 
             $("#listEmployer").html(listEmployer);
