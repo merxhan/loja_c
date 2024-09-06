@@ -4,7 +4,7 @@
         "birthday": "24/05/2004",
         "store": "Sapituca",
         "seniority": "30/08/2022",
-        "score": 2,
+        "score": 140,
         "bonus": "232,00",
         "image": "sapituca_lorena.png"
     },
@@ -22,7 +22,7 @@
         "birthday": "05/06/1975",
         "store": "Sapituca",
         "seniority": "06/11/2020",
-        "score": 6,
+        "score": 98,
         "bonus": "309,00",
         "image": "sapituca_rosane.png"
     },
@@ -49,7 +49,7 @@
         "birthday": "01/11/1986",
         "store": "Caraminholas Tamandare",
         "seniority": "02/06/2022",
-        "score": 0,
+        "score": 106,
         "bonus": "0,00",
         "image": "tamandare_gracilene.png"
     },
@@ -85,7 +85,7 @@
         "birthday": "15/01/1990",
         "store": "Caraminholas Marista",
         "seniority": "02/07/2022",
-        "score": 0,
+        "score": 95,
         "bonus": "0,00",
         "image": "marista_gabriela.png"
     },
@@ -94,7 +94,7 @@
         "birthday": "16/10/1982",
         "store": "Caraminholas Marista",
         "seniority": "08/12/2023",
-        "score": 0,
+        "score": 81,
         "bonus": "0,00",
         "image": "marista_eva.png"
     },
@@ -112,7 +112,7 @@
         "birthday": "06/09/1969",
         "store": "Casa do Bebê",
         "seniority": "01/10/2015",
-        "score": 0,
+        "score": 109,
         "bonus": "0,00",
         "image": "casaDoBebe_gloria.png"
     }
